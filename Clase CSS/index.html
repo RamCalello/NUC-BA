@@ -2,30 +2,38 @@
 <head>
     
     <title>Mascotas</title>
+<link rel="stylesheet" href="./index.css">
 </head>
-<body>
+<body class="coloresgeneral">
     <header>
         <h1>Mis mascotas</h1>
         <nav>
             <ul>
-                <li><a href="htttp://www.google.com.ar">Tyson</a></li>
-                <li><a href="htttp://www.google.com.ar">Chingo</a></li>
-                <li><a href="htttp://www.google.com.ar">Magui</a></li>
-                <li><a href="htttp://www.google.com.ar">Kebo</a></li>
+                <li><a href="htttp://www.google.com.ar" class="etiquetaA">Tyson</a></li>
+                <li><a href="htttp://www.google.com.ar" class="etiquetaA">Chingo</a></li>
+                <li><a href="htttp://www.google.com.ar" class="etiquetaA">Magui</a></li>
+                <li><a href="htttp://www.google.com.ar"class="etiquetaA">Kebo</a></li>
+                
             </ul>
         </nav>
-        <img src="./img/encabezado.jpg" alt="Este es mi encabezado">
+        <img src="./img/encabezado.jpg" alt="Este es mi encabezado" class="img">
         
     </header>
     <section>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quae officiis repudiandae minus, 
         voluptatum in quod, numquam impedit ullam animi id aliquam praesentium tempora nihil iste? Quibusdam nobis vitae neque.</p>
+        <select>
+            <option value="">Perros</option>
+            <option value="">Murcielagos</option>
+            <option value="">Gatos</option>
+            <option value="">PTortugas</option>
+        </select>
     </section>
 <footer>
     <nav>
         <ul>
-            <li><a href="htttp://www.google.com.ar">Tyson</a></li>
-            <li><a href="htttp://www.google.com.ar">Chingo</a></li>
+            <li><a href="htttp://www.google.com.ar" id="idtyson">Tyson</a></li>
+            <li><a href="htttp://www.google.com.ar" id="idchingo">Chingo</a></li>
             <li><a href="htttp://www.google.com.ar">Magui</a></li>
             <li><a href="htttp://www.google.com.ar">Kebo</a></li>
         </ul>
@@ -36,7 +44,7 @@
                 <p>Contacto:</p>
             </div>
             <div>
-                <span>Email:</span><input type="email" placeholder="Ingrese email">
+                <span class="email">Email:</span><input type="email" placeholder="Ingrese email">
             </div>
             <div>
                 <button type="button">Enviar</button>
