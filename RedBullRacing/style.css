@@ -1,0 +1,48 @@
+/* .menu {
+    width: 100%;
+    background-color: #001B30;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .menu img {
+    width: 40%;
+    margin: 0;
+
+} */
+/* 
+.links {
+
+font-size: 1em;
+} */
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #001B30;
+}
+
+header img{
+    width: 100%;
+}
+
+.imagen-header{
+    width: 30%;
+    height: 25%;
+}
+
+.links{
+    width: 70%;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    font-size: 1.5em;
+    word-spacing: 1em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
